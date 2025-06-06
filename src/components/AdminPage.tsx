@@ -46,7 +46,7 @@ const AdminPage: React.FC = () => {
   const [editingChallenge, setEditingChallenge] = useState<Challenge | null>(null);
   const [selectedContest, setSelectedContest] = useState<string>('');
   const [showImportModal, setShowImportModal] = useState(false);
-  const [importData as importDataText, setImportDataText] = useState('');
+  const [importDataText, setImportDataText] = useState('');
 
   // Form states
   const [contestForm, setContestForm] = useState({
